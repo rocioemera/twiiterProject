@@ -11,7 +11,7 @@ public class DBConnection {
 	private CouchDbClient dbClient;
 	private boolean createDbIfNotExist=true;
 	private String protocol="http";
-	private String host="115.146.93.167";
+	private String host="localhost"; //changes for correct database
 	private int port=5984;
 	private String errMsg;
 	
